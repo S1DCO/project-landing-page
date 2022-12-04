@@ -1,14 +1,26 @@
 body {
   box-sizing: border-box;
-  width: 700px;
+  margin: 0;
   height: 100vh;
-  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
 }
-section {
+
+* {
+  box-sizing: border-box;
+}
+section,
+header,
+footer {
+  width: 1000px;
   padding: 20px;
 }
 /*header*/
 header {
+  margin: -5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,6 +122,7 @@ ul {
 
 .section--4 {
   margin: 50px;
+  width: 900px;
   background-color: #3882f6;
   display: flex;
   justify-content: space-around;
