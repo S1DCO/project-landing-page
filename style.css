@@ -59,7 +59,7 @@ footer {
   font-size: 48px;
 
   font-weight: 800;
-
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 .section--1 p {
@@ -81,6 +81,9 @@ footer {
 ul {
   list-style: none;
   display: flex;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .section--2 h1 {
@@ -99,9 +102,11 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  align-items: stretch;
+  align-items: center;
 }
-
+.section--2 p {
+  text-align: center;
+}
 /*section--3*/
 
 .section--3 {
