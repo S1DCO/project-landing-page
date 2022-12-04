@@ -7,6 +7,23 @@ body {
 section {
   padding: 20px;
 }
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 0px 20px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  gap: 10px;
+}
+
 /*Section 1*/
 .section--1 {
   display: flex;
